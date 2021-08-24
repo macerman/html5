@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="process.php"> <!--Import PHP File-->
+        <!--Inputs-->
+        <label for="name">Name-Surname</label> <br>
+        <input type="text" id="name" name="name"> <br> <!--Use the name area for php later.-->
+        <label for="email">E-Mail</label> <br>
+        <input type="email" id="email" name="email"> <br>
+        <label for="password">Password</label> <br>
+        <input type="password" id="password" name="password"> <br>
+        <label for="date">Date</label> <br>
+        <input type="date" name="date" id="date"> <br>
+        <label for="gender">Gender</label> <br>
+        <input type="radio" name="gender" value="kız" checked>
+        <label for="gender">Female</label>
+        <input type="radio" name="gender" value="erkek">
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" value="diğer">
+        <label for="gender">Other</label> <br>
+        <label for="hobbies">Hobbies</label> <br>
+        <input type="checkbox" name="tech">
+        <label for="hobbies">Tech</label>
+        <input type="checkbox" name="music">
+        <label for="hobbies">Music</label>
+        <input type="checkbox" name="art">
+        <label for="hobbies">Art</label> <br>
+        <label for="degree">Degree</label> <br>
+        <select name="degree">
+            <option value="bachelor" selected>Bachelor</option>
+            <option value="msc">MsC</option>
+            <option value="phd">PhD</option>
+        </select> <br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Input Area"></textarea> <br>
+        <input type="submit" value="Submit"/>
+        <button type="submit">Or Submit Here</button>
+        <input type="reset" value="Reset"/>
+    </form>
+</body>
+
+</html>

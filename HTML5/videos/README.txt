@@ -1,0 +1,1 @@
+Add "clip1.mp4" and "clip2.mp4" to here before using!!!

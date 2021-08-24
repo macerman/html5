@@ -1,0 +1,1 @@
+Add "photo.jpg" and "picture.jpg" before using!!!
